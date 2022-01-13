@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(47, 47, 47);
+    padding: 0;
+    margin: 0;
+}
+
+.board {
+    background-image: url(../img/board.svg);
+    content: '';
+    display: block;
+    height: 800px;
+    width: 800px;
+}
+
+.square,
+.piece {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.square:hover,
+.piece:hover {
+    background-color: coral;
+}
